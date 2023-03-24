@@ -1,0 +1,29 @@
+{
+  "name": "highlightjs-j",
+  "version": "0.0.1",
+  "description": "highlight.js syntax definition for the J language",
+  "main": "src/languages/j.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0racle/highlightjs-j.git"
+  },
+  "keywords": [
+    "j",
+    "jsoftware",
+    "highlight.js",
+    "highlightjs",
+    "syntax"
+  ],
+  "author": "0rac1e",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0racle/highlightjs-js/issues"
+  },
+  "homepage": "https://github.com/0racle/highlightjs-j",
+  "directories": {
+    "test": "test"
+  }
+}
