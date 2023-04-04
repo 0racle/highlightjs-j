@@ -77,15 +77,22 @@ export default function(hljs) {
   }
 
   const J_UNPACK = {
-    begin: /'(?=(\s*[a-zA-Z][a-zA-Z0-9_]*)+\s*'\s=[.:])/,
+    begin: /'(?=(`?\s*[a-zA-Z][a-zA-Z0-9_]*)+\s*'\s=[.:])/,
     end: /'/,
     beginScope: id, endScope: id,
+    contains: [
+      { scope: conj, match: '`' }
+    ]
   };
 
   const J_UNPACK_NESTED = {
-    begin: /'(?=(\s*[a-zA-Z][a-zA-Z0-9_]*)+\s*'\s=[.:])/,
+    begin: /'(?=(`?\s*[a-zA-Z][a-zA-Z0-9_]*)+\s*'\s=[.:])/,
     end: /'/,
-    contains: [ J_NOUN_PARAM, J_VERB_PARAM ]
+    contains: [
+      J_NOUN_PARAM,
+      J_VERB_PARAM,
+      { scope: conj, match: '`' }
+    ]
   };
 
   const J_STRING = {
