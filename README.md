@@ -2,6 +2,10 @@
 
 A third-party highlightjs library for the [J](https://www.jsoftware.com) programming language.
 
+See also
+
+  * My [J syntax file for vim](https://github.com/0racle/vim-j)
+
 # Testing
 Do the following for testing the highlighting on a browser. See the
 [highlightjs docs](https://highlightjs.readthedocs.io/en/latest/building-testing.html) for more.
