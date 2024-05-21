@@ -29,5 +29,6 @@ Example screenshot using the `hybrid` theme.
 ![code example](screenshots/01-code-example.png)
 ![parts of speech](screenshots/02-parts-of-speech.png)
 ![numbers and params](screenshots/03-numbers-and-params.png)
+*Note:* Unpack highlighting is disabled until Issue #1 is resolved.
 ![unpacking and strings](screenshots/04-unpacking-and-strings.png)
 ![controls and verbs](screenshots/05-controls-and-verbs.png)
