@@ -289,7 +289,7 @@ export default function(hljs) {
       J_CONTROL,
       ...J_SYNTAX,
       J_STRING,
-      J_UNPACK,
+      // J_UNPACK,
     ],
   };
 
@@ -312,7 +312,7 @@ export default function(hljs) {
       J_CONTROL,
       ...J_SYNTAX,
       J_STRING_NESTED,
-      J_UNPACK_NESTED,
+      // J_UNPACK_NESTED,
     ],
     relevance: 4,
   };
@@ -331,7 +331,7 @@ export default function(hljs) {
       J_CONTROL,
       ...J_SYNTAX,
       J_STRING,
-      J_UNPACK,
+      // J_UNPACK,
     ],
     relevance: 4,
   };
@@ -353,7 +353,7 @@ export default function(hljs) {
       J_VERB_PARAM,
       J_CONTROL,
       ...J_SYNTAX,
-      J_UNPACK_NESTED,
+      // J_UNPACK_NESTED,
       J_STRING,
     ]
   };
@@ -370,7 +370,7 @@ export default function(hljs) {
       J_DDEF_NOUN_INLINE,
       J_DDEF_VERB_MULTI,
       ...J_SYNTAX,
-      J_UNPACK,
+      // J_UNPACK,
       J_STRING,
     ]
   };
